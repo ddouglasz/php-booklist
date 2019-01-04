@@ -1,0 +1,66 @@
+body {
+    color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute
+}
+
+.forms-card {
+    height: 200px;
+    width: 500px;
+    background-color: grey;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+form{
+    background: #ffff;
+    /* padding: 20px; */
+    position: fixed;
+    left: 30%;
+    bottom: 50%;
+    width: 400px;
+}
+
+.user-added {
+    color: blueviolet;
+}
+
+form select, form input{
+    margin: 6px;
+    padding: 6px;
+    /* box-sizing: border-box; */
+    border-radius: 3px;
+}
+
+/* sele */
+
+.submit-btn {
+    width: 100px;
+    background-color: rgb(45, 45, 128);
+    Color: white;
+    cursor: pointer;
+    margin-top: 15%;
+}
+
+
+#authors-list{
+    display: inline-block;
+    bottom: 80px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(27, 20, 24);
+    box-shadow: 1px 2px 3px rgb(0,0,0,0.3);
+    color: #880E4f;
+    width: 250px;
+    height: 200px;
+    background-color: grey;
+}
+
+.delete-link {
+    color: red;
+}
+
+.center-text h1 {
+    text-align: center
+}
